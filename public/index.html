@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Pass Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="hero">
+            <h1>E-Pass Tracker</h1>
+            <p>Track Bihar Mining Vehicle Pass Details Instantly</p>
+        </div>
+
+        <div class="search-card">
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="vehicleInput"
+                    placeholder="Enter Vehicle Number (e.g. BR06GG7326)"
+                />
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div id="loading" class="hidden loading-box">
+                <div class="spinner"></div>
+            </div>
+
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
